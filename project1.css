@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 12px;
+  font-style: normal;
+}
+
+.navBar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.navBar .logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px;
+}
+.menu {
+  width: 80%;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(10, 90, 90);
+  border-radius: 30px;
+}
+.menu ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 24%;
+  padding: 0 20px;
+  height: 100%;
+  text-align: center;
+}
+.menu ul li:hover {
+  border-radius: 30px;
+  background-color: #ff8000;
+  color: white;
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  margin-top: 10px;
+}
+.image {
+  display: inline-block;
+  width: 50%;
+  height: 380px;
+}
+.text {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  /* background-attachment: fixed; */
+  /* border: 1px dashed green; */
+}
+.text .btn {
+  font-size: small;
+}
+.text p {
+  margin: 0;
+  padding: 5px;
+}
+.image {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  color: rgb(72, 0, 255);
+  padding: 10px;
+  margin-top: 2px;
+  border-radius: 5px;
+  display: block;
+  border: 0;
+  background-color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.bannerImage {
+  margin-top: 60px;
+}
+.bannerImage img {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+  height: 350px;
+}
+
+.programs {
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 400px;
+}
+#btech {
+  background-color: #fc6441;
+  margin: 10px;
+  text-align: left;
+  overflow: auto;
+  border-radius: 10px;
+  width: 24%;
+  padding: 5px;
+}
+#mba {
+  background-color: #00a2ff;
+  margin: 10px;
+  text-align: left;
+  overflow: auto;
+  border-radius: 10px;
+  width: 24%;
+  padding: 5px;
+}
+#mca {
+  background-color: #1d5f72;
+  margin: 10px;
+  text-align: left;
+  overflow: auto;
+  border-radius: 10px;
+  width: 24%;
+  padding: 5px;
+}
+#bba {
+  background-color: #7768e5;
+  margin: 10px;
+  text-align: left;
+  overflow: auto;
+  border-radius: 10px;
+  width: 24%;
+  padding: 10px;
+}
+.heading {
+  /* overflow: scroll; */
+  /*height: 100px; */
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+.galleryImage {
+  margin: 4px;
+  width: 24%;
+  border-radius: 50px 20px;
+}
+.galleryImage img {
+  width: 100%;
+  height: auto;
+}
+
+.contactUS {
+  display: flex;
+  width: 100%;
+}
+.map {
+  width: 50%;
+}
+.map iframe {
+  width: 100%;
+  border-radius: 50px 20px;
+}
+.form {
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  display: inline;
+}
+.form input,
+textarea,
+button {
+  font-size: 40px;
+  width: 90%;
+  margin-top: 40px;
+  border: 2px solid rgb(0, 241, 181);
+  padding: 10px;
+  border-radius: 50px 20px;
+  text-align: center;
+  background-color: #acedff;
+  margin: 10px;
+  height: 70px;
+}
+.form textarea:hover {
+  background-color: #3aff96;
+}
+.form input:hover {
+  background-color: #3aff96;
+}
+.form button {
+  font-size: medium;
+  width: 20%;
+  color: white;
+  background-color: darkgreen;
+}
+.form button:hover {
+  width: 20%;
+  color: black;
+  cursor: pointer;
+  background-color: rgb(0, 242, 113);
+}
+.footer {
+  margin-top: 8px;
+  height: 100%;
+  display: flex;
+  background-color: rgb(226, 226, 226);
+}
+.footer .logo {
+  width: 33%;
+  justify-content: center;
+  border-right: 2px solid black;
+  display: flex;
+}
+.footer .links {
+  width: 33%;
+  border-right: 2px solid black;
+}
+.contact {
+  width: 33%;
+}
+.footer a {
+  text-decoration: none;
+  margin: 0 0px;
+}
+.element {
+  padding: 5px 20px;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+hr {
+  margin-bottom: 0;
+}
